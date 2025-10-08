@@ -1,16 +1,9 @@
 {
   "private": true,
-  "name": "textlint-rule-preset-comnico",
-  "homepage": "https://github.com/Comnico/textlint-rule-preset-comnico",
-  "version": "1.0.0-local",
   "scripts": {
-    "test": "textlint README.md",
-    "website": "textlint-website-generator --output-dir ./dist"
+    "test": "textlint README.md"
   },
-  "author": "Masahiro Sugiura",
-  "license": "MIT",
   "dependencies": {
-    "@textlint/website-generator": "^0.12.0",
     "textlint": "^12.0.0",
     "textlint-rule-preset-comnico": "../"
   }

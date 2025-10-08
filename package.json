@@ -1,9 +1,9 @@
 {
   "name": "textlint-rule-preset-comnico",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Comnico/textlint-rule-preset-comnico.git"
+    "url": "git+https://github.com/comnico/textlint-rule-preset-comnico.git"
   },
   "keywords": [
     "textlint",
@@ -15,7 +15,7 @@
   ],
   "main": "lib/textlint-rule-preset-comnico.js",
   "scripts": {
-    "test": "cd example && yarn add ../ && yarn test"
+    "test": "cd example && npm i && npm test"
   },
   "directories": {
     "test": "test"
@@ -23,9 +23,9 @@
   "author": "Masahiro Sugiura <m.sugiura@comnico.jp>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Comnico/textlint-rule-preset-comnico/issues"
+    "url": "https://github.com/comnico/textlint-rule-preset-comnico/issues"
   },
-  "homepage": "https://github.com/Comnico/textlint-rule-preset-comnico#readme",
+  "homepage": "https://github.com/comnico/textlint-rule-preset-comnico#readme",
   "dependencies": {
     "@textlint/module-interop": "^12.2.1",
     "textlint-filter-rule-allowlist": "^4.0.0",
