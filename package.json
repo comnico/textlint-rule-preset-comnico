@@ -28,7 +28,7 @@
     "fmt:check": "oxfmt --check .",
     "lint": "oxlint .",
     "lint:fix": "oxlint --fix .",
-    "test": "node test/index.mjs"
+    "test": "node --test"
   },
   "dependencies": {
     "@textlint/module-interop": "^15.5.2",
