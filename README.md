@@ -26,9 +26,31 @@ Via CLI
 textlint --rule preset-comnico README.md
 ```
 
+## 動作要件
+
+- Node.js >= 20.0.0
+- textlint >= 15.0.0
+
 ### Tests
 
     npm test
+
+## リリース手順
+
+1. `main` ブランチで変更がマージ済みであることを確認
+2. バージョンを更新（破壊的変更: `major`、機能追加: `minor`、バグ修正: `patch`）
+
+       npm version major  # or minor, patch
+
+3. リモートにプッシュ（タグ含む）
+
+       git push && git push --tags
+
+4. npm に公開
+
+       npm publish
+
+5. [GitHub Releases](https://github.com/comnico/textlint-rule-preset-comnico/releases) でタグから Release を作成し、変更内容を記載
 
 ## License
 
