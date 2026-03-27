@@ -64,7 +64,6 @@
   },
   "devDependencies": {
     "@textlint/kernel": "^15.5.2",
-    "@textlint/textlint-plugin-markdown": "^15.5.2",
     "oxfmt": "^0.42.0",
     "oxlint": "^1.57.0",
     "textlint": "^15.5.2"
