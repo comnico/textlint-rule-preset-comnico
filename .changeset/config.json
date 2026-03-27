@@ -1,5 +1,5 @@
 {
-  "$schema": "https://changesets.astro.build/schema.json",
+  "$schema": "https://unpkg.com/@changesets/config@3.1.3/schema.json",
   "changelog": [
     "@changesets/changelog-github",
     { "repo": "comnico/textlint-rule-preset-comnico" }
