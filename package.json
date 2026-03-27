@@ -1,33 +1,34 @@
 {
   "name": "textlint-rule-preset-comnico",
   "version": "1.0.9",
+  "keywords": [
+    "comnico",
+    "textlint",
+    "textlintrule"
+  ],
+  "homepage": "https://github.com/comnico/textlint-rule-preset-comnico#readme",
+  "bugs": {
+    "url": "https://github.com/comnico/textlint-rule-preset-comnico/issues"
+  },
+  "license": "MIT",
+  "author": "Masahiro Sugiura <m.sugiura@comnico.jp>",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/comnico/textlint-rule-preset-comnico.git"
   },
-  "keywords": [
-    "textlint",
-    "textlintrule",
-    "comnico"
-  ],
+  "directories": {
+    "test": "test"
+  },
   "files": [
     "lib/"
   ],
   "main": "lib/textlint-rule-preset-comnico.js",
   "scripts": {
+    "fmt": "oxfmt .",
+    "fmt:check": "oxfmt --check .",
+    "lint": "oxlint .",
+    "lint:fix": "oxlint --fix .",
     "test": "cd example && npm i && npm test"
-  },
-  "directories": {
-    "test": "test"
-  },
-  "author": "Masahiro Sugiura <m.sugiura@comnico.jp>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/comnico/textlint-rule-preset-comnico/issues"
-  },
-  "homepage": "https://github.com/comnico/textlint-rule-preset-comnico#readme",
-  "engines": {
-    "node": ">=20.0.0"
   },
   "dependencies": {
     "@textlint/module-interop": "^15.5.2",
@@ -62,9 +63,13 @@
     "textlint-rule-sentence-length": "^5.2.1"
   },
   "devDependencies": {
-    "prettier": "^3.8.1"
+    "oxfmt": "^0.42.0",
+    "oxlint": "^1.57.0"
   },
   "peerDependencies": {
     "textlint": "^15.0.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
   }
 }
