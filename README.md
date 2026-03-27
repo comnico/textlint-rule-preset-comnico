@@ -6,7 +6,9 @@
 
 Install with [npm](https://www.npmjs.com/):
 
-    npm install textlint-rule-preset-comnico
+```bash
+npm install textlint-rule-preset-comnico
+```
 
 ## 使いかた
 
@@ -22,7 +24,7 @@ Via `.textlintrc`(Recommended)
 
 Via CLI
 
-```
+```bash
 textlint --rule preset-comnico README.md
 ```
 
@@ -33,7 +35,9 @@ textlint --rule preset-comnico README.md
 
 ### Tests
 
-    npm test
+```bash
+npm test
+```
 
 ## リリース手順
 
