@@ -24,10 +24,10 @@
   ],
   "main": "lib/textlint-rule-preset-comnico.js",
   "scripts": {
-    "fmt": "oxfmt .",
-    "fmt:check": "oxfmt --check .",
-    "lint": "oxlint .",
-    "lint:fix": "oxlint --fix .",
+    "fmt": "oxfmt",
+    "fmt:check": "oxfmt --check",
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix",
     "test": "node --test"
   },
   "dependencies": {
