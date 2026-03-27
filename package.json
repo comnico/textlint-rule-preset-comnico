@@ -28,7 +28,7 @@
     "fmt:check": "oxfmt --check .",
     "lint": "oxlint .",
     "lint:fix": "oxlint --fix .",
-    "test": "cd example && npm i && npm test"
+    "test": "node test/index.mjs"
   },
   "dependencies": {
     "@textlint/module-interop": "^15.5.2",
@@ -63,8 +63,11 @@
     "textlint-rule-sentence-length": "^5.2.1"
   },
   "devDependencies": {
+    "@textlint/kernel": "^15.5.2",
+    "@textlint/textlint-plugin-markdown": "^15.5.2",
     "oxfmt": "^0.42.0",
-    "oxlint": "^1.57.0"
+    "oxlint": "^1.57.0",
+    "textlint": "^15.5.2"
   },
   "peerDependencies": {
     "textlint": "^15.0.0"
